@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 18px;
+    transition: .3s;
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(18, 226, 206);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar {
+    margin-top: 35px;
+}
+
+
+.carousel-indicators li {
+	border-radius: 30px;
+    width: 20px;
+    height: 15px;
+    background-color: #ddd;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    height: 15px;
+    width: 40px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dba000+1,dbc343+100 */
+background: rgb(219,160,0); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(219,160,0,1) 1%, rgba(219,195,67,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(219,160,0,1) 1%,rgba(219,195,67,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(219,160,0,1) 1%,rgba(219,195,67,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dba000', endColorstr='#dbc343',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+
+.carousel-item h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: black;
+}
+.carousel-item p{
+    font-size: 16px;
+    color: #333;
+}
+.carousel-item a{
+    padding: 10px 20px;
+    font-weight: 600;
+    background: black;
+}
+.carousel-item a i{
+    padding: 0 10px;
+}
+
+.carousel-item img{
+    padding: 60px;
+}
+
+
+.smart-phone {
+    padding: 60px 40px;
+}
+.smart-phone li h3{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.smart-phone li h3 a{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    transition: .3s;
+}
+.smart-phone li h3 a:hover{
+    color: #ffb527;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    opacity: .9;
+}
+
+
+
+.products{
+
+text-align: center;
+
+padding: 35px 20px;
+
+box-shadow: 2px 2px 30px #463d3f57;
+}
+.products img{
+    width: 70%;
+}
+.products h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.products p{
+    color: #333;
+    font-size: 15px;
+}
+.products h2{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.products a{
+	background: black;
+}
+.products a i { 
+	padding: 0 10px; 
+}
+
+
+
+.categories{
+    padding: 20px 0;
+}
+
+.heading{padding-bottom: 50px;}
+
+.heading h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.heading span{
+	height: 7px;
+	width: 150px;
+	background: rgb(219,160,0);
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+}
+
+.shoe{
+    box-shadow: 2px 2px 30px #463d3f57;
+    padding: 30px;
+}
+
+.shoe h6{
+    font-weight: 700;
+}
+.shoe h6 a{
+        color: #343737;
+}
+
+.bag{
+    padding: 30px 0;
+    box-shadow: 2px 2px 30px #463d3f57;
+    margin-bottom: 20px;
+}
+.bag img{
+    padding: 25px 0;
+}
+.bag h6{
+    font-weight: 700;
+}
+
+.bag h6 a{
+        color: #343737;
+}
+
+.perfume{
+    padding: 30px 0;
+    box-shadow: 2px 2px 30px #463d3f57;
+    margin-bottom: 20px;
+}
+.perfume img{
+    padding: 25px 0;
+}
+.perfume h6{
+    font-weight: 700;
+}
+
+.perfume h6 a{
+        color: #343737;
+}
